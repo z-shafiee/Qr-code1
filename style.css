@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -11,21 +11,20 @@ body {
   padding: 0 10px;
   min-height: 100vh;
   align-items: center;
-  background-color: white;
+  background: #9b90bb;
   justify-content: center;
   color: #fff;
 }
-/* .form{
-    box-shadow: 0 8px 25px rgba(9, 16, 203, 0.4);
-} */
+
 .wrapper {
   height: 265px;
   max-width: 410px;
-  background:white
+  background:white;
   border-radius: 7px;
   padding: 20px 25px 0;
   transition: height 0.2s ease;
-  box-shadow : 0 8px 25px rgb(79, 79, 235);;
+  box-shadow: 0 8px 25px rgba(126, 78, 134, 0.4);
+  border-color: #9b90bb;
 }
 
 .wrapper.active {
@@ -61,8 +60,8 @@ header p {
   font-size: 18px;
   padding: 0 17px;
   border: 1px solid #999;
-  color:black;
-  background-color: white;
+  color: black;
+  background: whi;
 }
 
 .form input:focus {
@@ -74,16 +73,16 @@ header p {
 }
 
 .form button {
-  color: #fff;
+  color: black;
   cursor: pointer;
   margin-top: 20px;
   font-size: 17px;
-  background:rgb(79, 79, 235);
+  background: blueviolet;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .form button:hover {
-  background: #333;
+  background:;
 }
 
 .form button:active {
@@ -99,8 +98,6 @@ header p {
   pointer-events: none;
   justify-content: center;
   border: 1px solid #ccc;
-  
-
 }
 
 .wrapper.active .qr-code {
